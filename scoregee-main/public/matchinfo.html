@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title id="match-info-title">Loading...</title>
+		<link rel="stylesheet" href="/styling.css" />
+		<link rel="icon" type="image/x-icon" href="/images/scoregee-favi.png" >
+	</head>
+	<body>
+		<div class="navbar">
+			<a href="/football">Home</a>
+			<a class="active" href="/football/epl/2022">Premier League</a>
+			<a href="/football/ligue1/2022">Ligue 1</a>
+			<a href="/football/bundesliga/2022">Bundesliga</a>
+			<a href="/football/seriea/2022">Seria A</a>
+			<a href="/football/laliga/2022">La Liga</a>
+			<a href="/football/contact">Contact</a>
+			<a href="/football/about">About</a>
+			<a href="/football/faq">FAQ</a>
+		</div>
+		<a id="league-hp-link" href="">Go Back</a>
+		<header id="fixture-header">
+			<h1 id="fixture-league">League Name - League Country</h1>
+			<div class="fixture-match-info-div"></div>
+		</header>
+		<section id="match-info-sct">
+			<details>
+				<summary><h3 class="dropdown-heading">Info</h3></summary>
+				<div id="quick-info">
+					<div id="quick-info-data"></div>
+				</div>
+			</details>
+			<details>
+				<summary><h3 class="dropdown-heading">Events</h3></summary>
+				<div id="match-events"></div>
+			</details>
+			<details>
+				<summary><h3 class="dropdown-heading">Statistics</h3></summary>
+				<div id="match-statistics"></div>
+			</details>
+			<details>
+				<summary><h3 class="dropdown-heading">Lineups</h3></summary>
+				<div id="match-lineup"></div>
+			</details>
+		</section>
+		<script type="module" src="/scripts/fixtureInfo.js"></script>
+	</body>
+</html>
